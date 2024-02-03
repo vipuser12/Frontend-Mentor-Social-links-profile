@@ -15,14 +15,15 @@ html {
 
 body {
     background-color: var(--Off-Black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 .container {
     background-color: var(--Off-Black);
     width: 1440px;
     height: 100vh;
     margin: auto;
-
 }
 
 
