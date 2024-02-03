@@ -89,8 +89,10 @@ body {
     position: relative;
     bottom: 25px;
 }
-a:hover {
-  background-color: var(--Grey-background);
+input:hover {
+    background-color: var(--green-loaction);
+    transition: 0.9s;
+    
 }
 .buttons a {
     color: white !;
