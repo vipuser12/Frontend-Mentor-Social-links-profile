@@ -89,7 +89,9 @@ body {
     position: relative;
     bottom: 25px;
 }
-
+a:hover {
+  background-color: var(--Grey-background);
+}
 .buttons a {
     color: white !;
     text-decoration: none;
@@ -110,7 +112,7 @@ input {
 }
 
 .GitHub {
-    background-color: var(--green-loaction);
+    color: white;
     font-size: 1rem;
     font-weight: 600;
 }
