@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+:root {
+    --White-heading: hsl(0, 0%, 100%);
+    --Grey-background: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --green-loaction: hsl(75, 94%, 57%)
+}
+
+html {
+    font-size: 14px;
+    font-family: "Inter", serif;
+}
+
+body {
+    background-color: var(--Off-Black);
+}
+
+.container {
+    background-color: var(--Off-Black);
+    width: 1440px;
+    height: 100vh;
+    margin: auto;
+
+}
+
+
+
+.wrapper {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto !important;
+    background-color: var(--Dark-Grey);
+    border-radius: 20px;
+    height: fit-content;
+    /* Subtract header height */
+    position: relative !important;
+    top: 5%;
+}
+
+.avatar {
+    height: fit-content;
+}
+
+.avatar img {
+    border-radius: 500px;
+    display: flex !important;
+    margin: auto !important;
+    padding: 40px;
+    width: 100px;
+}
+
+.description {
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.jessica {
+    color: var(--White-heading);
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 1.9rem !important;
+}
+
+.location {
+    color: var(--green-loaction);
+    font-size: 1.1rem !important;
+    position: relative;
+    bottom: 10px;
+}
+
+.quote {
+    color: var(--White-heading);
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: 5;
+    gap: 15px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    padding: 10px;
+    position: relative;
+    bottom: 25px;
+}
+
+.buttons a {
+    color: white !;
+    text-decoration: none;
+}
+
+a input {
+    cursor: pointer;
+}
+
+input {
+
+    border-radius: 5px;
+    border: none !important;
+    width: 300px;
+    height: 35px;
+    background-color: var(--Grey-background);
+
+}
+
+.GitHub {
+    background-color: var(--green-loaction);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.Frontend-Mentor {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--White-heading);
+}
+
+.LinkedIn {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--White-heading);
+}
+
+.Twitter {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--White-heading);
+}
+
+.Instagram {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--White-heading);
+
+}
+
+.attribution{
+    color: white;
+}
